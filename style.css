@@ -9,6 +9,45 @@
     justify-content: space-between;
     margin: 50px 0;
     align-items: center;
+    
+}
+
+.column{
+    flex-direction: column;
+}
+
+.square-dummy-image{
+    width: 250px;
+    height: 250px;
+    
+}
+
+.qoute-section{
+    height: 300px;
+    background-color: #e5e7eb;
+    padding: 0px 100px;
+}
+
+.author{
+    align-self: flex-end;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    padding-right: 200px;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.qoute{
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+}
+
+.container-different{
+    display: flex;
+    align-items: center;
 }
 
 .left{
@@ -40,6 +79,12 @@ body>div{
 .hero-secondary-text, .header-link-text{
     font-size: 18px;
     color: #adaeb1;
+}
+
+.information-header-text{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937
 }
 
 .header-link-text{
